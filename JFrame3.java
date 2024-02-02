@@ -38,7 +38,7 @@ JOptionPane.showMessageDialog(this,"success");
  } 
  catch(Exception e){ 
  System.out.print("not connected"); 
- JOptionPane.showMessageDialog(this,"not success"); 
+ JOptionPane.showMessageDialog(this,"not success please try again"); 
  } 
  
  } 
