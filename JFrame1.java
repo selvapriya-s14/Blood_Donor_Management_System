@@ -41,7 +41,7 @@ public class JFrame1 extends javax.swing.JFrame {
             con = DriverManager.getConnection("jdbc:postgresql://localhost/Blood_Bank", "postgres", "Priya@14" );
          JOptionPane.showMessageDialog(this,"success");
         } catch(Exception e){ 
- System.out.print("not connected please correct the      "); 
+ System.out.print("not connected please correct the"); 
  } 
         
     }
